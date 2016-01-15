@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c76ee001-aed6-4234-9175-6f7b878493a1" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:53388/NetaService.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="NetaService.wsdl" MetadataType="Wsdl" ID="63e14e00-385c-487d-b9d3-1914a9e20dd6" SourceId="1" SourceUrl="http://localhost:53388/NetaService.svc?wsdl" />
+    <MetadataFile FileName="NetaService.xsd" MetadataType="Schema" ID="59f2b951-df04-4c34-8b5b-47f5362a9d2a" SourceId="1" SourceUrl="http://localhost:53388/NetaService.svc?xsd=xsd2" />
+    <MetadataFile FileName="NetaService1.xsd" MetadataType="Schema" ID="b8ba132c-0f54-449b-9e83-0184cb8dc1a7" SourceId="1" SourceUrl="http://localhost:53388/NetaService.svc?xsd=xsd0" />
+    <MetadataFile FileName="NetaService2.xsd" MetadataType="Schema" ID="b922a84a-ec01-4b35-bd7c-45f67d768614" SourceId="1" SourceUrl="http://localhost:53388/NetaService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

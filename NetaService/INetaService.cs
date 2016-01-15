@@ -14,6 +14,9 @@ namespace NetaService
     {
 
         [OperationContract]
+        string getJsonData();
+
+        [OperationContract]
         string GetData(int value);
 
         [OperationContract]
